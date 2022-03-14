@@ -3,7 +3,8 @@ simpleCart({
   checkout: {
     type: "PayPal",
     email: "you@yours.com"
-  }
+  },
+  currency: "CLP"
 });
 
 //* Add shopping cart dropdown in header
