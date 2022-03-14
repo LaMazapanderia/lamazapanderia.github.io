@@ -15,7 +15,7 @@ jQuery(document).ready(function () {
 });
 
 //* Define spreadsheet URL (make sure you add the #gid=0 for the sheet you want to use)
-var googleSheetURI = 'https://docs.google.com/spreadsheets/d/1rNtE0_nEYO-HNv065ASfB2gBSeZIleKRFRV7Rf81yss/edit#gid=0;
+var googleSheetURI = 'https://docs.google.com/spreadsheets/d/1rNtE0_nEYO-HNv065ASfB2gBSeZIleKRFRV7Rf81yss/edit#gid=0';
 
 //* Compile the Handlebars template for HR leaders
 var HRTemplate = Handlebars.compile($('#hr-template').html());
